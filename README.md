@@ -1,6 +1,6 @@
 **MIND MENDER**
 
-Our project name addresses Mental Health Issues and the need to be aware about it. During the lockdown and online era, mental breakdowns were very common. Both mental and physical health are essential for everyone. The project aims at helping people to get rid of their psychological problems by introspecting and understanding themselves through expert sessions, personalized counseling sessions, and curated blogs. It also focuses on building a community where like-minded people can socialise, share their experiences and problems, understand things better and prosper. Additionally, people can also get information about different mental health problems, tips, solutions, etc.
+Our project **MIND BENDER** addresses Mental Health Issues and the need to be aware about it. During the lockdown and online era, mental breakdowns were very common. Both mental and physical health are essential for everyone. The project aims at helping people to get rid of their psychological problems by introspecting and understanding themselves through expert sessions, personalized counseling sessions, and curated blogs. It also focuses on building a community where like-minded people can socialise, share their experiences and problems, understand things better and prosper. Additionally, people can also get information about different mental health problems, tips, solutions, etc.
 
 **TEAM MEMBERS**
 
