@@ -1,16 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name here</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="newstyle.css"> -->
-</head>
-<body>
-    <div class="navBar">
+
+    <style>
+        .full{
+            color: white;
+            margin: 0;
+            background-color: royalblue;
+        .heading{
+            color: white;
+        }
+        .para{
+            color: white;
+        }
+    </style>
+
+    <title>Mental-Health</title>
+  </head>
+  <body class='full'>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="border-bottom: white solid 0.6vw;">
+        <div class="container-fluid">
+            <img src="./images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          <a class="navbar-brand" href="#">Project Name</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./healthProblems.html">Health problems</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Expert Sessions
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="./sessions.html">Live Session</a></li>
+                  <li><a class="dropdown-item" href="#">Book Counselling Slot</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutUs.html">Health problems</a>
+              </li>
+            </ul>
+            <a class="btn btn-primary" href="./signUp.html" role="button">Sign in</a>
+          </div>
+        </div>
+      </nav>
+        
+      <!-- Carousel -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/f.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <img src="./images/logo.png" alt="" width=100ovw height=100vw>
+              <h1 class="text-light text-xl-center">Mind Mender</h1>
+              <p class="text-light">IT'S OKAY IF YOU VISIT US!!</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/l.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <img src="./images/logo.png" alt="" width=100ovw height=100vw>
+              <h1 class="text-light text-xl-center">Mind Mender</h1>
+              <p class="text-light">IT'S OKAY IF YOU VISIT US!!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/h.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <img src="./images/logo.png" alt="" width=100ovw height=100vw>
+              <h1 class="text-light text-xl-center">Mind Mender</h1>
+              <p class="text-light">IT'S OKAY IF YOU VISIT US!!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+    <!-- <div class="navBar">
         <h1>Mental</h1>
         <ul>
             <li ><a class="active" href="./index.html">Home</a></li>
@@ -20,9 +123,7 @@
             <li><a href="./aboutUs.html">About Us</a></li>
             <li><a href="./signUp.html">Sign Up</a></li>
         </ul>
-    </div>
-    <div class="main">
+    </div> -->
+    <!-- <div class="main">
         <img src="./home.jpeg" alt="">
-    </div>
-</body>
-</html>
+    </div> -->
