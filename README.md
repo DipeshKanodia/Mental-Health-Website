@@ -1,6 +1,6 @@
 **MIND MENDER**
 
-During the lockdown era mental breakdowns were common as many people lost their jobs and were away from their families. Both mental and physical health are essential for everyone. To know about one’s problem they would need to visit through a number of website. So we thought of making this process a lot easier for everyone. We gather the stories of peoples who have suffered through the same situation so that other people can experience through it. Timing of sessions taken by experts.
+Our project name addresses Mental Health Issues and the need to be aware about it. During the lockdown and online era, mental breakdowns were very common. Both mental and physical health are essential for everyone. The project aims at helping people to get rid of their psychological problems by introspecting and understanding themselves through expert sessions, personalized counseling sessions, and curated blogs. It also focuses on building a community where like-minded people can socialise, share their experiences and problems, understand things better and prosper. Additionally, people can also get information about different mental health problems, tips, solutions, etc.
 
 **TEAM MEMBERS**
 
